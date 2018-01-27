@@ -39,7 +39,7 @@ resample-method = src-sinc-medium-quality
 default-sample-format = s24le
 default-sample-rate = 48000
 ```
-  
+
   - restart pulseaudio
 
 ```
@@ -173,6 +173,21 @@ Section "Device"
   EndSection
 >>>>>>> 9c41e499b91523cb6dc347ac03cde21bc057d6ae
 ```
+### Using VMs
+Once you have a VM set up, there are useful commands you can use
+
+```
+drew@hansolo ~/tmp/ubuntuInstall (master) $ vboxmanage list vms
+"Ubuntu - Project 1 - Lab environment" {35ff08f3-6096-4c52-9c3d-07383c5601b2}
+drew@hansolo ~/tmp/ubuntuInstall (master) $ vboxmanage list runningvms
+"Ubuntu - Project 1 - Lab environment" {35ff08f3-6096-4c52-9c3d-07383c5601b2}
+# start the vm headless in the background
+drew@hansolo ~/tmp/ubuntuInstall (master) $ VBoxHeadless --startvm 35ff08f3-6096-4c52-9c3d-07383c5601b2 &
+# this will save the state of the disk and power off the vm
+drew@hansolo ~/tmp/ubuntuInstall (master) $ vboxmanage controlvm 35ff08f3-6096-4c52-9c3d-07383c5601b2 savestate
+```
+
+
 
 
 #### TODO
