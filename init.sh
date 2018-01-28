@@ -22,6 +22,9 @@ USER=`whoami`
 sudo chsh -s /usr/bin/zsh $USER
 sudo usermod -a -G audio,video,netdev $USER
 
+# Add user to transmission group
+sudo usermod -a -G debian-transmission $USER
+
 # This disables the need to enter password for sudo'ing
 echo "$USER ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
 

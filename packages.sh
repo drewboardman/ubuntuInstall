@@ -60,3 +60,6 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     feh \
     network-manager-openvpn-gnome \
     neovim \
+    transmission-cli \
+    transmission-common \
+    transmission-daemon \
