@@ -63,3 +63,4 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     transmission-cli \
     transmission-common \
     transmission-daemon \
+    python-pip \

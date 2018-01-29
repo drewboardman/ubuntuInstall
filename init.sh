@@ -17,6 +17,9 @@ cd ubuntuInstall
 # install packages
 /bin/bash packages.sh
 
+# install pip2 stuff for ensime
+pip2 install sexpdata websocket-client
+
 # setup user
 USER=`whoami`
 sudo chsh -s /usr/bin/zsh $USER
