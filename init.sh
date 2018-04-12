@@ -32,7 +32,8 @@ sudo usermod -a -G debian-transmission $USER
 echo "$USER ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
 
 # Hansolo
-cp hansolo.jpg ~/Downloads
+cp hansolo.jpg ~/wallpapers
+cp lich.jpg ~/wallpapers
 
 # Install rbenv and newest ruby
 rm -fr ~/.rbenv
