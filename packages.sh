@@ -5,7 +5,6 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     software-properties-common \
     zsh \
     zsh-doc \
-    zsh-lovers \
     vim-doc \
     vim-gtk \
     alsa-utils \
@@ -27,7 +26,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     git \
     silversearcher-ag \
     xsel \
-    linux-image-extra-$(uname -r) \
+    linux-image-extras \
     tmux \
     openssh-server \
 \
