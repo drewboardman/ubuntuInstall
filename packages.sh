@@ -26,7 +26,6 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     git \
     silversearcher-ag \
     xsel \
-    linux-image-extras \
     tmux \
     openssh-server \
 \
