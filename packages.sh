@@ -20,11 +20,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     build-essential \
     mosh \
 \
-    ruby-full \
-\
     curl \
     git \
-    silversearcher-ag \
     xsel \
     tmux \
     openssh-server \
@@ -49,11 +46,13 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     libffi-dev \
 \
     stow \
-    chromium-browser \
     xvfb \
     openvpn \
     openconnect \
     tree \
+    firefox \
+    nodejs \
+    npm \
     arandr\
     feh \
     network-manager-openvpn-gnome \

@@ -187,9 +187,7 @@ drew@hansolo ~/tmp/ubuntuInstall (master) $ VBoxHeadless --startvm 35ff08f3-6096
 drew@hansolo ~/tmp/ubuntuInstall (master) $ vboxmanage controlvm 35ff08f3-6096-4c52-9c3d-07383c5601b2 savestate
 ```
 
-
-
-
-#### TODO
-- intellij
-- scala
+### Things you need to install manually right now
+* `ripgrep`
+* `fd`
+* `nvim` (using the appimage)
