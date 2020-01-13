@@ -5,8 +5,6 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     software-properties-common \
     zsh \
     zsh-doc \
-    vim-doc \
-    vim-gtk \
     alsa-utils \
     pavucontrol \
 \
@@ -18,7 +16,6 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     evince \
     xchm \
     build-essential \
-    mosh \
 \
     curl \
     git \
@@ -26,7 +23,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     tmux \
     openssh-server \
 \
-    mesa-utils \
+    # mesa-utils \
 \
     openjdk-8-jdk \
 \
@@ -51,14 +48,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install \
     openconnect \
     tree \
     firefox \
-    nodejs \
-    npm \
     arandr\
-    feh \
     network-manager-openvpn-gnome \
-    neovim \
-    transmission-cli \
-    transmission-common \
-    transmission-daemon \
     python-pip \
     htop \
